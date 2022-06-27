@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Contact Page</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<nav>
+		<a href="index.html">Home </a>
+		<a href="skills.html">| Skills | </a>
+		<a href="contact.html"> Contact</a>
+	</nav>
+
+	<h1 class="contactpagehead">contact</h1>
+	<div class="address">
+		<h2>address</h2>
+		<div class="fright">
+			<a href="mailto:jwilborn@syr.edu">My email address</a><br>
+
+			<a href="https://www.linkedin.com/in/jason-wilborn" target="_blank"><img src="../images/LI-reduced.png" alt="LinkedIn logo" width="17"> My LinkedIn</a>
+		</div>
+		<p>Jason Wilborn<br>200 Waverly Ave<br>Syracuse, NY 13210<br>315.443.1870</p>
+
+		<div class="clear"></div>
+	</div>
+
+	<div class="contact_form">
+		<div class="contactflex1">
+			<strong class="contactformhead">Contact Form</strong>
+			<form action="mailto:jwilborn@syr.edu" method="post">
+				<label for="fname">Full Name:</label>
+				<input type="text" id="fname" name="fname">
+				<hr>
+				<strong>Email Subject:</strong><br>
+				<!--The name attribute is what links the radio buttons-->
+
+				<label for="employment">Employment</label>
+				<input type="radio" id="employment" name="inquiriry" value="employment">
+				<br>
+				<label for="question">Question</label>
+				<input type="radio" id="question" name="inquiriry" value="question">
+				<br>
+				<label for="photography">Photography</label>
+				<input type="radio" id="photography" name="inquiriry" value="photography">
+
+				<br><br>
+				<label for="message"><strong>Message:</strong></label>
+				<br><textarea id="message" name="message" rows="4" cols="25">Enter your message </textarea>
+				<hr>
+
+				<label for="contact">Choose a contact method:</label>
+				<select name="contact" id="contact">
+					<option value="email">Email</option>
+					<option value="phone">Phone</option>
+					<option value="physicalmail">Physical Mail</option>
+				</select>
+				<br><br>
+				<label for="address">Leave your preferred contact address or number:<br></label>
+				<input type="text" id="address" name="address">
+				<br><br>
+				<input class="submitbutton" type="submit" value="Send Message">
+			</form>
+		</div>
+			<iframe
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1329.338298900499!2d-76.13567845485319!3d43.03926537621773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f39f8dcd9c3b%3A0x76db76d883b8ff0!2sSchine%20Student%20Center%20-%20Syracuse%20University!5e0!3m2!1sen!2sus!4v1631722497818!5m2!1sen!2sus"
+				width="300" height="350" style="border:0;" allowfullscreen>
+			</iframe>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Color changer</title>
+    <script>
+    	function changeColor(){
+    		document.getElementById("pagecolor").style.backgroundColor = document.getElementById("colorP").value //no hyphen, just capital letter
+    	}
+    </script>
+    <style>
+    	body{background-color: #fee6e1;}
+    </style>
+</head>
+
+<body id="pagecolor">
+	<form>
+		<input id="colorP" onchange="changeColor()" type="color">
+	</form>
+
+</body>
+
+</html>

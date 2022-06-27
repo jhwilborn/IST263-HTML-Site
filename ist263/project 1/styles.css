@@ -1,0 +1,271 @@
+/*Applies to all pages*/
+body{
+    background-color: #aeb3c9;
+    margin:2em;
+    color:#11151c;
+    font-family: 'Segoe UI', 'Frutiger', 'Dejavu Sans', 'Helvetica Neue', 'Arial', sans-serif;
+    font-size:1.1em;
+}
+nav{
+    padding:0.5em 0em;
+    text-align: center;
+    border-radius: 15px;
+    border: 2px solid black;
+    background-color: #19323c;
+}
+nav a{
+    text-decoration: none;
+    font-size: 1.55em;
+    font-style:bold;
+}
+.navflex{
+    display:flex;
+    max-width:100%;
+    align-items:center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.navflex nav{
+    flex:9;
+    margin-left:10em;
+}
+.logo{
+    padding:0.5em 1em;
+    background-color: #26547c;
+    border-radius: 15px;
+    font-size: 1.25em;
+    color:#ffffff;
+    text-align: center;
+}
+header{margin-top:2em;}
+section{
+    padding: 1em 3em;
+    background-color: #969db6;
+    border-radius: 15px;
+    margin-top: 1em;
+}
+aside{
+    background-color: #a93f55;
+    padding: 0em 2em;
+    border-radius: 15px;
+}
+footer{
+    background-color: #495867;
+    padding: 2em 3em;
+    color:#dfdfdf
+}
+footer a{
+    font-size: 1.3em;
+    text-decoration: none;
+    color:#c2a5a5;
+    padding: 0 0.25em;
+}
+footer a:hover{color:#f1b9b9}
+footer div{
+    background-color: #19323c;
+    border-radius: 15px;
+    padding: .5em 1em;
+}
+
+
+h1, h2, h3{font-family: 'Candara', 'Optima Regular', 'Calibri', 'Arial', sans-serif;}
+h1{font-size: 2em;}
+h2{font-size: 1.5em;}
+h3{font-size: 1.25em;}
+hr{
+    border: 1px solid #f3f7f0;
+    border-radius: 15px;
+}
+a{color:#cc8484}
+a:hover{color:#ca4949}
+
+/*IDs*/
+#skip{
+    position:absolute;
+    left:-9999px;
+}
+#skip:focus{
+    left: 10px;background-color: #ffffff;
+    padding:1em;
+    margin:1em;
+}
+
+/*class selectors that aren't page specific*/
+.stackedimg{margin-bottom:1em;}
+.sectioncontent{
+    background-color: #858ca7;
+    padding:0.25em 1em;
+    border-radius: 15px;
+    margin-bottom:1em;
+    margin-top:1em;
+}
+
+/*class selectors for page 1*/
+.p1headerflex{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+.p1headerflex img{max-width: 25em;}
+.p1headerleft{
+    flex: 1;
+    margin-right: 3em;
+}
+.p1headerright{
+    flex: 2;
+    background-color: #8c98b4;
+    border-radius:15px;
+    padding: 0.5em 2em;
+}
+.page1section1{
+    display:flex; 
+    flex-wrap:wrap;
+    max-width: 100%;
+}
+.page1section1 img{max-width: 20em;}
+.p1sec1left{
+    flex:1;
+    align-self: center;
+    margin-right: 3em;
+}
+.p1sec1right{flex:3;}
+.p1sec1right img{
+    max-width: 60%;
+    margin-left:15%;
+    margin-right:15%;
+}
+.page1section2{
+    display:flex; 
+    flex-wrap:wrap;
+    max-width:100%;
+}
+.page1section2 img{max-width: 23em;}
+.p1s2main{flex:2;}
+.p1s2img{
+    flex:1;
+    padding:0.5em;
+    margin-left: 2em;
+}
+
+/*class selectors for Page 2*/
+.p2headerflex{
+    display:flex;
+    align-items: center;
+}
+.p2headerflex img{max-width:100%;}
+.p2headerleft{
+    flex:2;
+    border-radius: 15px;
+    background-color: #8c98b4;
+    padding: 0em 2em;
+}
+.p2headerright{
+    flex:1;
+    margin-left:2em;
+}
+.bigh2{
+    font-size: 2.5em;
+    font-style: italic;
+}
+.page2section1{display:flex;}
+.page2section1 img{max-width: 100%;}
+.p2sec1left{flex:2;}
+.p2sec1right{
+    flex:1;
+    margin: auto 2em;
+}
+.p2divider{
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    min-width: none;
+}
+.p2divider h2{font-size:4em;}
+.dividerleft{
+    border-top: 3px solid black;
+    flex:2;
+}
+.dividerright img{max-width: 100%;}
+.dividermiddle{ /*needs beter centering*/
+    flex:1;
+    justify-self: center;
+    padding-left:8em;
+    height:5em;
+}
+.dividerright{
+    border-top: 3px solid black;
+    flex:2;
+    padding-top:8em;
+}
+
+.page2section2{display:flex;}
+.p2sec2left{
+    flex:1;
+    margin-right: 2em;
+}
+.p2sec2right{flex:1;}
+.p2sec2right img{
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width:80%;
+}
+
+/*page 3 selectors*/
+.p3header{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 15px;
+    background-color: #8c98b4;
+    padding: 1em 2em;
+    margin-bottom: 1em;
+}
+.flexaside{display:flex;}
+.flexaside img{max-width:100%;}
+.p3left{
+    flex:3;
+    margin-right: 4em;
+}
+.p3img{display:flex;}
+.asideimg{
+    flex:1;
+    align-self: center;
+}
+.p3right{flex:1;}
+
+
+/*Not properly adjusting some elements, can't get a mini logo to work*/
+@media only screen and (max-width:650px){ 
+	nav a {
+		max-width:100%;
+		display:block;
+	}
+    .navflex nav{
+        margin:0;
+    }
+    footer a{
+        max-width:100%;
+		display:block;
+	}
+	.outerbox span {display:none;}
+	.outerbox{
+        flex-wrap:wrap;
+		justify-content:center;
+	}
+    .logo{display:none;}
+    /*.minilogo{
+        display:block;
+        padding:0.5em 1em;
+        background-color: #26547c;
+        border-radius: 15px;
+        font-size: 1.25em;
+        color:#ffffff;
+        text-align: center;
+    }*/
+}
+
+/*@media only screen and (max-width:650px){
+    .minilogo{
+        display:none;
+    }
+}*/

@@ -1,0 +1,18 @@
+body {color: yellow}
+    	p {
+    		color: green;
+    		font-size: 150%;
+    		/*This looks like java comments or something lol. Selecting all paragraphs, changing font, color, size. Precedence is picked by the selector closer to the text level, otherwise picked by the last item in the doc*/
+    	}
+    	h1{
+    		color: blueviolet;
+    		letter-spacing: .9em;
+    		word-spacing: 2em;
+    	}
+    	p, h1 {
+    		font-family: Arial, Helvetica, sans-serif;
+    	}
+    	p a {
+    		/*Only change the color of links inside P tags. Descendant selector*/
+    		color: darkorange;
+    	}

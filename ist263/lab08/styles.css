@@ -1,0 +1,104 @@
+body {
+	background-color: #e3ded5;
+	margin: 2.5em;
+	color: #3b3f47;
+	font-family: 'Lucida', Courier;
+}
+nav {
+	background-color: #f1c9b7;
+	padding: 1em;
+	margin-bottom: .75em;
+	border-radius:.33em;
+	font-family: 'Lucida Console', monospace;
+}
+nav a {color:#121013}
+nav a:hover {
+	background-color: #f5b273;
+}
+header {
+	text-transform: lowercase;
+	font-family: 'Lucida Consolae', monospace;
+	padding-bottom:2em;
+}
+header ul {
+	list-style-type: none;
+	list-style-position: inside;
+}
+header img {
+	float: left;
+	max-width: 7em;
+	padding-right: 1.5em;
+}
+footer {margin-top: 2em;}
+section h2{margin-bottom: -0.5em;}
+h1,h2,h3 {
+	font-family: 'Lucida', monospace;
+	color: #1c1d21;
+}
+table{
+	border: solid 2px black;
+	width: 50%;
+	padding: .25em;
+	border-radius:1em;
+	}
+
+caption{
+	font-size: 1.74em;
+	margin-bottom:.33em;
+	text-align:left;
+	font-family: 'Lucida', monospace;
+}
+td{
+	border-top: solid 1px grey;
+	border-bottom: solid 1px grey;
+	padding-left:1em;
+	padding-top:.2em;
+}
+a{color: #b15d0e}
+
+.floatright {float: right;}
+.floatleft {float: left;}
+.clearfloat {clear: both;}
+.ulnodots {
+	list-style-type: none;
+	margin: 0;
+	margin-left: 0.75em;
+	padding: 0;
+}
+.addressinfo{
+	background-color: #fffbf0;
+	padding: 2em;
+	border-radius: 2em;
+	margin-bottom: 2em;
+}
+.contact_form{
+	display:flex;
+	background-color: #fffbf0;
+	border-radius:2em;
+	padding: 2em;
+}
+.contactflex1 hr{
+	max-width:90%; 
+	margin-left:0;
+}
+.contactflex1{flex:2;}
+.contact_form iframe{
+	border-radius:0 2em 2em 0;
+	flex:1;
+	padding-left:1em;
+}
+.contactformhead{
+	font-size: 1.5em; 
+	line-height: 2em;
+	padding:0;
+	margin:0;
+}
+.addresshead{
+	font-size: 1.5em; 
+	line-height: 2em;
+	padding:0;
+	margin:0;
+}
+.evenrow{background-color: #d6c9b5;}
+.hobbies h2{margin-bottom:.2em}
+.submitbutton{border-radius: .5em;}

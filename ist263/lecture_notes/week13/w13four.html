@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hamburger</title>
+	<style>
+		#hamicon {display: none;}
+		img{width:40px;}
+		nav a:hover {background-color: lightseagreen;}
+
+		@media only screen and (max-width: 600px) {
+			span {display: none;}
+
+			#hamicon {display: block;}
+
+			nav a {
+				display: block;
+				padding: 10px 0px;
+			}
+			#navlinks {display:none;}
+		}
+	</style>
+	<script>
+		function turnNav(){
+			
+			if(document.getElementById("navlinks").style.getPropertyValue("display")=="block"){
+				document.getElementById("navlinks").style.display = "none";
+			}
+			else{
+				document.getElementById("navlinks").style.display = "block";
+			}
+			
+		}
+	</script>
+</head>
+
+<body>
+	<!--
+	html
+	1. hamburger icon in screen
+	
+	CSS media query
+	2. turn hamburger icon on when screen is small
+	
+	3. hide stacked nav when screen gets small
+	
+	CSS media query
+	4. turn hamburger icon when the screen gets large
+	
+	5.turn regular nav on when screen gets large
+	
+	javascript
+	6. show staked nav on click
+	7. hide it on a second click
+	
+	-->
+	<nav>
+		<img id="hamicon" src="https://laferger.github.io/ist263/images/hamburger.png" alt="hamburger icon" onclick="turnNav()">
+		<div id="navlinks">
+			<a href="index.html">Home</a> <span>|</span>
+			<a href="skills.html">Skills</a> <span>|</span>
+			<a href="contact.html">Contact</a>
+		</div>
+	</nav>
+</body>
+
+</html>
